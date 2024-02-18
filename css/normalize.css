@@ -211,9 +211,7 @@ text-transform: uppercase;
     --color-l: rgb(37, 33, 59);
     --color-e: rgb(217, 213, 236);
     --color-b: rgb(139, 131, 186);
-    --color-k: #000;
-    --color-p: #cd06ff;
-    --c1: #370A37;
+
     --texst-size-a: calc(16px + 8 * (100vw / 1440));
     /*24px*/
     --texst-size-b: calc(8px + 4 * (100vw / 1600));
@@ -226,26 +224,6 @@ text-transform: uppercase;
     /*18*/
     --texst-size-f: calc(12px + 4 * (100vw / 1440));
     /*16*/
-
-    --texst-size-g: calc(10px + 20 * (100vw / 1440));
-    /*30*/
-    --texst-size-k: calc(10px + 18 * (100vw / 1600));
-    /*28*/
-    --texst-size-l: calc(11px + 14 * (100vw / 1600));
-    /*25*/
-    --texst-size-m: calc(12px + 8 * (100vw / 1440));
-    /*20*/
-
-    --size-n: calc(35px + 115 * (100vw / 1440));
-    /*150*/
-    --texst-size-q: calc(18px + 26 * (100vw / 1440));
-    /*44*/
-    --texst-size-x: calc(26px + 74 * (100vw / 1440));
-    /*100*/
-    --texst-size-n: calc(22px + 53 * (100vw / 1440));
-    /*75*/
-    --texst-size-s: calc(10px + 16 * (100vw / 1440));
-    /*26*/
 }
 
 @media (min-width: 1300px) {
@@ -254,7 +232,7 @@ text-transform: uppercase;
        margin: 0 auto;
        max-width: 1100px;
        padding: 0;
-       padding-top: 5%;
+       padding: 5% 0;
     }
 
 }
@@ -263,20 +241,12 @@ text-transform: uppercase;
     .container {
         padding: 3rem 4rem;
     }
-
-   
 }
 
 @media (max-width: 768px) {
     .container {
         padding: 2rem 3rem;
     }
-
-    .title {
-      
-    }
-
-   
 
 }
 
@@ -285,9 +255,4 @@ text-transform: uppercase;
         padding: 2rem 1rem;
     }
 
-    .title {
-       
-    }
-
-   
 }
